@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Perimetar i plostina na triagolnik</title>
+</head>
+<body align="center" background="https://cdn.wallpapered.com/wp-content/uploads/2018/09/01174927/Confectionary.jpg">
+	
+	<form action="perimetar_plostina.php" method="post">
+		
+		<h1> Пресметка на периметар и плоштина на триаголник </h1>
+
+		<input type="radio" 
+				name="triagolnik"
+				id = "ramnostran"
+				value="Рамностран"
+				>
+		<label for="ramnostran" style="font-size: 20px;"> Рамностран триаголник </label>
+
+		<input type="radio" 
+				name="triagolnik"
+				id = "ramnokrak"
+				value="Рамнокрак"
+				>
+		<label for="ramnokrak" style="font-size: 20px"> Рамнокрак триаголник </label>
+
+		<input type="radio" 
+				name="triagolnik"
+				id = "raznostran"
+				value="Разностран">
+		<label for="raznostran" style="font-size: 20px"> Разностран триаголник </label>
+
+		<input type="radio" 
+				name="triagolnik"
+				id = "pravoagolen"
+				value="Правоаголен">
+		<label for="pravoagolen" style="font-size: 20px"> Правоаголен триаголник </label>
+
+		<br><br><br>
+
+		
+		 <div class="mom" style="display: flex;">
+
+      		<div class="child" style="flex: 23.33%; margin-left: 140px;">
+        		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Triangle.Equilateral.svg/220px-Triangle.Equilateral.svg.png" width="100px"/>
+      		</div>
+
+      		<div class="child" style="flex: 23.33%;">
+        		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Triangle.Isosceles.svg/220px-Triangle.Isosceles.svg.png" height="100px" />
+      		</div>
+
+      		<div class="child" style="flex: 23.33%;">
+        		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Triangle_standard.svg/1200px-Triangle_standard.svg.png" height="100px" />
+      		</div>
+
+      		<div class="child" style="flex: 23.33%; margin-right: 140px;">
+        		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Right_triangle_standard.svg/220px-Right_triangle_standard.svg.png" height="100px"/>
+      		</div>
+    </div>
+
+
+		<br><br><br>
+
+		<label for="strana_a" style="font-size: 17px"> Должина на страна а : </label>
+		<input type="float" 
+				name="strana_a"
+				id="strana_a"
+				value=""
+				placeholder="cm">
+
+		<br><br><br>
+
+	
+		<label for="strana_b" style="font-size: 17px"> Должина на страна b : </label>
+		<input type="float" 
+				name="strana_b"
+				id="strana_b"
+				value=""
+				placeholder="cm">
+
+
+		<br><br><br>
+
+		<label for="strana_c" style="font-size: 17px"> Должина на страна c : </label>
+		<input type="float" 
+				name="strana_c"
+				id="strana_c"
+				value=""
+				placeholder="cm">
+
+
+		<br><br><br>
+
+		<label for="visina_ha" style="font-size: 17px"> Должина на висината ha е : </label>
+		<input type="float" 
+				name="visina_ha"
+				id="visina_ha"
+				value=""
+				placeholder="cm">
+
+
+		<br><br><br>
+		<input type="submit"
+				name="submit" 
+				value="Пресметај периметар и плоштина"
+				style="width:50%; padding: 18px; background-color: #69d0f0; font-size: 18px"
+				>
+		
+
+	</form>
+
+</body>
+</html>
